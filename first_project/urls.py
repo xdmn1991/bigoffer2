@@ -21,4 +21,5 @@ urlpatterns = [
     path('', XiongBao.as_view()),
     path('admin/', admin.site.urls),
     path('first_app/',include('first_app.urls')),
+    path('auth/',include('django.contrib.auth.urls')),
 ]
