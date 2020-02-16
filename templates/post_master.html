@@ -1,0 +1,8 @@
+{% load static %}
+
+<div>
+    {% for post in object_list %}
+        <img src = "/{{post.image }}" width = 200 height = 200 >
+    {% endfor %}
+
+</div>
